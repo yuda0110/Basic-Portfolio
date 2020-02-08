@@ -10,9 +10,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 </ul>
             </nav>
         </div>`
-  header.innerHTML = headerHtml
+  if (header) {
+    header.innerHTML = headerHtml
+  }
 
   const footer = document.querySelector('.footer')
   const footerHtml = 'Copyright © 2020 Yuko Uda'
-  footer.innerHTML = footerHtml
+  if (footer) {
+    footer.innerHTML = footerHtml
+  }
 })
