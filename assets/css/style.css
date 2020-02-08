@@ -26,8 +26,8 @@ h1 {
     border-bottom: 3px solid #dddddd;
 }
 
-/* ========== HEADER ========== */
 
+/* ========== HEADER ========== */
 .header {
     width: 100%;
     background-color: #ffffff;
@@ -71,21 +71,23 @@ div.name {
     text-decoration: none;
 }
 
+
 /* ========== MAIN CONTENTS ========== */
 .container {
     width: 960px;
-    margin: 30px auto;
+    margin: 30px auto 100px;
     padding: 30px;
     background-color: #ffffff;
     border: 1px solid #dddddd;
 }
+
 
 /* ========== FOOTER ========== */
 .footer {
     width: 100%;
     padding: 30px 10px 10px;
     background-color: #666666;
-    border-top: 7px solid #4aaaa5;
+    border-top: 8px solid #4aaaa5;
     text-align: center;
     color: #ffffff;
     font-size: 12px;
@@ -95,11 +97,39 @@ div.name {
 }
 
 /* ========== ABOUT ME ========== */
-
 .about-contents {
     display: flex;
 }
 
 .my-photo {
     margin-right: 20px;
+}
+
+/* ========== PORTFOLIO ========== */
+.portfolio-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio-list li {
+    margin-right: 46px;
+    position: relative;
+}
+
+.portfolio-list li:not(:last-of-type) {
+    margin-bottom: 30px;
+}
+
+.portfolio-title {
+    width: 100%;
+    padding: 10px;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    text-align: center;
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: normal;
+    background-color: #4aaaa5;
 }
