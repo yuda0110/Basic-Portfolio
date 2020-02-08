@@ -107,11 +107,13 @@ div.name {
 
 /* ========== ABOUT ME ========== */
 .about-contents {
-    display: flex;
+    clear: both;
+    overflow: auto;
 }
 
 .my-photo {
-    margin-right: 20px;
+    margin: 0 20px 10px 0;
+    float: left;
 }
 
 /* ========== PORTFOLIO ========== */
