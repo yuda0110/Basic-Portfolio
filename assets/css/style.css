@@ -9,6 +9,7 @@ body {
     line-height: 1.6;
     background: url("../images/leaves-pattern.png") repeat;
     color: #777777;
+    position: relative;
 }
 
 h1,
@@ -71,13 +72,26 @@ div.name {
 }
 
 /* ========== MAIN CONTENTS ========== */
-
 .container {
     width: 960px;
     margin: 30px auto;
     padding: 30px;
     background-color: #ffffff;
     border: 1px solid #dddddd;
+}
+
+/* ========== FOOTER ========== */
+.footer {
+    width: 100%;
+    padding: 30px 10px 10px;
+    background-color: #666666;
+    border-top: 7px solid #4aaaa5;
+    text-align: center;
+    color: #ffffff;
+    font-size: 12px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
 
 /* ========== ABOUT ME ========== */
