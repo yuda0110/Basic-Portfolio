@@ -31,7 +31,7 @@ h1 {
 /* ========== HEADER ========== */
 .header {
     width: 100%;
-    background-color: #ffffff;
+    background-color: #fff;
     border-bottom: 2px solid #ccc;
 }
 
@@ -46,7 +46,7 @@ h1 {
 
 div.name {
     padding: 15px 40px;
-    color: #ffffff;
+    color: #fff;
     background-color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 36px;
@@ -149,7 +149,7 @@ div.name {
     left: 0;
     text-align: center;
     font-size: 24px;
-    color: #ffffff;
+    color: #fff;
     font-weight: normal;
     background-color: #4aaaa5;
     transition: background-color .3s;
@@ -193,7 +193,7 @@ div.name {
 }
 
 .submit-btn {
-    color: #ffffff;
+    color: #fff;
     background-color: #4aaaa5;
     padding: 10px 30px;
     font-size: 16px;
