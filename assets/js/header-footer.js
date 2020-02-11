@@ -22,7 +22,9 @@ const createHeader = () => {
 
 const createFooter = () => {
   const footer = document.querySelector('.footer')
-  const footerHtml = 'Copyright © 2020 Yuko Uda'
+  const day = new Date()
+  const year = day.getFullYear()
+  const footerHtml = `Copyright © ${year} Yuko Uda`
   if (footer) {
     footer.innerHTML = footerHtml
   }
