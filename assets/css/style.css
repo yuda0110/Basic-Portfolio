@@ -83,13 +83,15 @@ div.name {
     border-right: 1px solid var(--color-light-gray1);
 }
 
-.navigation a {
+.navigation a:link,
+.navigation a:visited {
     color: var(--color-dark-gray1);
     text-decoration: none;
     transition: color .3s;
 }
 
-.navigation a:hover {
+.navigation a:hover,
+.navigation a:focus {
     color: var(--color-orange);
 }
 
@@ -213,6 +215,7 @@ div.name {
     transition: background-color .3s;
 }
 
-.submit-btn:hover {
+.submit-btn:hover,
+.submit-btn:focus {
     background-color: var(--color-orange);
 }
