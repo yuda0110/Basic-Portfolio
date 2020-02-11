@@ -1,4 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
+  createHeader()
+  createFooter()
+})
+
+const createHeader = () => {
   const header = document.querySelector('.header')
   const headerHtml = `<div class="header-contents">
             <div class="name">Yuko Uda</div>
@@ -13,10 +18,12 @@ document.addEventListener('DOMContentLoaded', () => {
   if (header) {
     header.innerHTML = headerHtml
   }
+}
 
+const createFooter = () => {
   const footer = document.querySelector('.footer')
   const footerHtml = 'Copyright © 2020 Yuko Uda'
   if (footer) {
     footer.innerHTML = footerHtml
   }
-})
+}
